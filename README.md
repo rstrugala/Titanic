@@ -93,7 +93,7 @@ Individual predictions were deconstructed using SHAP waterfall attributions agai
 ```text
 ├── notebooks/
 │   ├── 01_Data_analysis.ipynb    # Exploratory analysis, skewness audits & initial baseline
-│   └── 02_Titanic_train.ipynb    # Pipeline design, OOF benchmarking, Optuna tuning & SHAP
+│   └── 02_Pipeline.ipynb    # Pipeline design, OOF benchmarking, Optuna tuning & SHAP
 ├── models/
 │   ├── titanic_model_prod.joblib # Serialized Random Forest predictor bundle
 │   └── titanic_lr_prod.joblib    # Serialized Logistic Regression predictor bundle
